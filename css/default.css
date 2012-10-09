@@ -1,0 +1,7 @@
+/**
+ * General
+ */
+body, input, select, textarea {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+}

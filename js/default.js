@@ -1,0 +1,4 @@
+var Default = {};
+
+(function () {
+});
