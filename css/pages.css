@@ -5,10 +5,12 @@ section.home {
 }
 
 section.home div.details {
-	box-shadow: inset 1px 2px 3px #CACAC9;
+	box-shadow: inset 0px 2px 3px #CACAC9;
 	border-bottom: 1px solid #FFFFFF;
 	overflow: hidden;
+	padding-bottom: 20px;
 }
+
 section.home div.details h2 {
 	background-color: #E2E1E1;
 	box-shadow: 0 3px 3px #DBDBDA;
@@ -20,3 +22,26 @@ section.home div.details h2 {
 	padding:0px 42px;
 	width: 607px;
 }
+
+section.home div.details div.content {
+	background-color: #FFFFFF;
+	margin: 0px auto;
+	padding: 22px 162px;
+	width: 349px;
+}
+
+section.home div.details div.content div.item{
+	margin-bottom: 28px;
+}
+
+section.home div.details div.content div.item:last-child {
+	margin-bottom: 0px;
+}
+
+section.home div.details div.content div.item h3 {
+	color: #313F52;
+	font-family: 'OpenSansBold'; 
+	font-size: 14px;
+}
+
+
