@@ -3,3 +3,8 @@
  */
 section.home {
 }
+
+section.home div.details {
+	box-shadow: inset 1px 2px 3px #CACAC9;
+	border-bottom: 1px solid #FFFFFF;
+}
