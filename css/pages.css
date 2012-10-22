@@ -7,4 +7,16 @@ section.home {
 section.home div.details {
 	box-shadow: inset 1px 2px 3px #CACAC9;
 	border-bottom: 1px solid #FFFFFF;
+	overflow: hidden;
+}
+section.home div.details h2 {
+	background-color: #E2E1E1;
+	box-shadow: 0 3px 3px #DBDBDA;
+	color: #313F52;
+	font-family: 'OpenSansBold'; 
+	font-size: 14px;
+	line-height: 34px;
+	margin: 2px auto;
+	padding:0px 42px;
+	width: 607px;
 }
