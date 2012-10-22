@@ -35,8 +35,26 @@ body {
 	background: url(/img/body-bg.png);
 }
 
+div#pag {
+	margin: 0px auto;
+	padding: 40px 0px 15px;
+	width: 765px;
+}
+
 /**
  * Header
  */
- header {
- }
+header {
+ 	margin-bottom: 21px;
+}
+
+header h1 {
+ 	width: 281px;
+}
+
+header h1 a {
+ 	background: url(/img/header-h1-a.png) no-repeat;
+ 	display: block;
+ 	height: 88px;
+ 	text-indent: -9999px;
+}
