@@ -3,6 +3,56 @@
  */
 section.home {
 }
+section.home div.form {
+	box-shadow: inset -1px 2px 3px #CACAC9;
+	border-bottom: 1px solid #FFFFFF;
+	border-radius: 8px;
+	margin-bottom: 23px;
+}
+
+section.home div.form form fieldset {
+	padding: 9px 15px;
+}
+
+section.home div.form form fieldset div.input.text{
+	float: left;
+	margin-right: 10px;
+}
+
+section.home div.form form fieldset div.input.text label {
+	font-family: 'OpenSansRegular'; 
+	font-size: 14px;
+	margin-right: 27px;
+}
+
+section.home div.form form fieldset div.input.text input {
+	background-color: #EEF0F3;
+	border-radius: 8px;
+	border: 1px solid #A0A9B6;
+	box-shadow: inset -1px 2px 3px #D6DADE; 
+	font-family: 'OpenSansRegular'; 
+	font-size: 14px;
+	height: 28px;
+	padding: 0px 0px  0px 12px;
+	width: 398px;
+}
+
+section.home div.form form fieldset div.submit {
+	float: left;
+}
+
+section.home div.form form fieldset div.submit input {
+	background: linear-gradient(#FFFFFF, #E0E2E5);
+	border-radius: 3px;
+	border: 1px solid #959DA7;
+	color: #313F52;
+	cursor: pointer;
+	font-family: 'OpenSansBold'; 
+	font-size: 14px;
+	height: 28px;
+	padding: 0;
+	width: 143px;
+}
 
 section.home div.details {
 	box-shadow: inset 0px 2px 3px #CACAC9;
@@ -43,5 +93,3 @@ section.home div.details div.content div.item h3 {
 	font-family: 'OpenSansBold'; 
 	font-size: 14px;
 }
-
-
